@@ -1,5 +1,6 @@
 package com.uday.mbs;
 
+import com.uday.mbs.entities.Booking;
 import com.uday.mbs.services.InitService;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.CommandLineRunner;
@@ -13,7 +14,7 @@ public class MbsApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(MbsApplication.class, args);
-
+		Booking booking  = new Booking();
 
 	}
 	/**
